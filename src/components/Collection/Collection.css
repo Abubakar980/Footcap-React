@@ -1,83 +1,92 @@
-/* Collection.css */
+/* src/components/Collection.css */
 .collections {
-    height: 490px;
-    width: 100vw;
-    position: relative;
-    top: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px;
-    background-color: var(--background-color);
-  }
-  
-  .collections-content {
-    height: 370px;
-    width: 1250px;
-    margin: 0 155px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .collect-one, .collect-two, .collect-three {
-    height: 350px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .collect-one {
-    background-image: url(./images/collection-1.jpg);
-  }
-  
-  .collect-two {
-    background-image: url(./images/collection-2.jpg);
-  }
-  
-  .collect-three {
-    background-image: url(./images/collection-3.jpg);
-  }
-  
-  .collect-one-content, .collect-two-content, .collect-three-content {
-    padding: 45px 0 25px 0;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-  
-  h3 {
-    font-size: 20px;
-    font-family: "Josefin Sans", sans-serif;
-    text-transform: uppercase;
-  }
-  
-  .collect-one-btn, .collect-two-btn, .collect-three-btn {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid black;
-    cursor: pointer;
-  }
-  
-  .collect-one-btn span, .collect-two-btn span, .collect-three-btn span {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 18px;
-    padding: 14px 25px;
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-  }
-  
-  .collect-one-btn:hover span, .collect-two-btn:hover span, .collect-three-btn:hover span {
-    background-color: rgba(0, 0, 0, 0.356);
-  }
-  
-  i {
-    font-size: 18px;
-  }
-  
+  height: 490px;
+  width: 100vw;
+  position: relative;
+  top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  background-color: var(--background-color);
+}
+
+.collections-content {
+  height: 370px;
+  width: 1250px;
+  margin: 0 155px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collect-one,
+.collect-two,
+.collect-three {
+  height: 350px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.collect-one {
+  background-image: url("/images/collection-1.jpg");
+}
+
+.collect-two {
+  background-image: url("/images/collection-2.jpg");
+}
+
+.collect-three {
+  background-image: url("/images/collection-3.jpg");
+}
+
+.collect-one-content,
+.collect-two-content,
+.collect-three-content {
+  padding: 45px 0 25px 0;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.collect-one-btn,
+.collect-two-btn,
+.collect-three-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.collect-one-btn span,
+.collect-two-btn span,
+.collect-three-btn span {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  padding: 14px 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.collect-one-btn:hover span,
+.collect-two-btn:hover span,
+.collect-three-btn:hover span {
+  background-color: rgba(0, 0, 0, 0.356);
+}
+
+i {
+  font-size: 18px;
+}

@@ -1,66 +1,64 @@
-/* Main.css */
+/* src/components/Main.css */
 main {
-    background-image: url(./images/hero-banner.png);
-    height: 580px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 400px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    top: 90px;
-    width: 100vw;
-  }
-  
-  .main-content {
-    margin: 0 295px;
-    padding: 0 15px;
-  }
-  
-  .main-title {
-    font-size: 50px;
-    font-family: "Josefin Sans";
-    font-weight: 300;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    color: hsl(217, 28%, 9%);
-  }
-  
-  .main-text {
-    font-size: 16px;
-    font-family: "Roboto";
-    margin-bottom: 25px;
-    line-height: 1.8;
-    color: hsl(0, 0%, 27%);
-  }
-  
-  .main-button {
-    background-color: hsl(5, 100%, 69%);
-    color: white;
-    font-size: 26px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-    padding: 14px 25px;
-    border: 1px solid hsl(5, 100%, 69%);
-    cursor: pointer;
-    font: inherit;
-    width: 158.39px;
-    height: 49px;
-    font-family: "Josefin Sans";
-    letter-spacing: 1px;
-    font-weight: 600;
-    /* transition: 0.25s; */
-  }
-  
-  .main-button:hover {
-    opacity: 0.8;
-  }
-  
-  .main-button i {
-    transform: scale(1.5);
-  }
-  
+  background-image: url("/images/hero-banner.png"); /* Note: slash at start */
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 90px;
+  width: 100vw;
+}
+
+.main-content {
+  margin: 0 295px;
+  padding: 0 15px;
+}
+
+.main-title {
+  font-size: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: hsl(217, 28%, 9%);
+}
+
+.main-text {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
+  line-height: 1.8;
+  color: hsl(0, 0%, 27%);
+}
+
+.main-button {
+  background-color: hsl(5, 100%, 69%);
+  color: white;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  padding: 14px 25px;
+  border: 1px solid hsl(5, 100%, 69%);
+  cursor: pointer;
+  font: inherit;
+  width: 158.39px;
+  height: 49px;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.main-button:hover {
+  opacity: 0.8;
+}
+
+.main-button i {
+  transform: scale(1.5);
+}

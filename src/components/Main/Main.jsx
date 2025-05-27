@@ -1,4 +1,4 @@
-import React from 'react';
+// src/components/Main.jsx
 import './Main.css';
 
 function Main() {
@@ -15,7 +15,8 @@ function Main() {
           expanded array of leadership.
         </div>
         <div className="main-button">
-          <span>Shop Now</span><i className="bx bx-right-arrow-alt"></i>
+          <span>Shop Now</span>
+          <i className="bx bx-right-arrow-alt"></i>
         </div>
       </div>
     </main>

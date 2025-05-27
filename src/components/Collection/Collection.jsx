@@ -1,5 +1,4 @@
-// Collection.jsx
-import React from 'react';
+// src/components/Collection.jsx
 import './Collection.css';
 
 const Collection = () => {
@@ -11,7 +10,7 @@ const Collection = () => {
             <h3>Men Collections</h3>
             <div className="collect-one-btn">
               <span>
-                Explore All<i className="bx bx-right-arrow-alt"></i>
+                Explore All <i className="bx bx-right-arrow-alt"></i>
               </span>
             </div>
           </div>
@@ -22,7 +21,7 @@ const Collection = () => {
             <h3>Women Collections</h3>
             <div className="collect-two-btn">
               <span>
-                Explore All<i className="bx bx-right-arrow-alt"></i>
+                Explore All <i className="bx bx-right-arrow-alt"></i>
               </span>
             </div>
           </div>
@@ -33,7 +32,7 @@ const Collection = () => {
             <h3>Sports Collections</h3>
             <div className="collect-three-btn">
               <span>
-                Explore All<i className="bx bx-right-arrow-alt"></i>
+                Explore All <i className="bx bx-right-arrow-alt"></i>
               </span>
             </div>
           </div>
