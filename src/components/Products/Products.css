@@ -1,0 +1,184 @@
+.product-section {
+  width: 80%; /* Reduced width to make the layout smaller */
+  max-width: 1200px; /* Limit maximum width for large screens */
+  margin: 0 auto; /* Center align the container */
+  margin-top: 85px;
+  padding: 40px 0; /* Adjust padding for a more compact design */
+  background-color: var(--background-color);
+  font-family: "Josefin Sans";
+}
+
+.product-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: var(--text-color);
+  text-align: center;
+  font-weight: 700;
+}
+
+.product-tabs ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.product-tabs ul li {
+  padding: 8px 14px;
+  font-family: "Roboto";
+  font-size: 13px;
+  color: var(--text-color);
+  font-weight: 500;
+  border: 1px solid hsl(0, 0%, 88%);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-tabs ul li.active,
+.product-tabs ul li:hover {
+  background-color: #ff6e61;
+  color: white;
+}
+
+.product-wrapper-container {
+  max-height: 700px; /* Adjusted height to fit 8 cards with less space */
+  overflow-y: auto; /* Enable vertical scroll if more than 8 items */
+  padding: 0 10px; /* Reduced padding for compact layout */
+}
+
+.product-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  grid-template-rows: repeat(2, auto); /* 2 rows */
+  gap: 15px; /* Reduced gap between cards */
+  padding: 15px 0;
+}
+
+.product-card {
+  width: 100%;
+  height: 330px; /* Reduced height for smaller cards */
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  background: #f6f6f6;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 20px #e96d5f;
+}
+
+.product-image img {
+  width: 120px; /* Reduced image size to fit smaller card */
+  margin: 10px 0;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.1);
+}
+
+.product-text h2 {
+  font-size: 20px; /* Adjusted font size for compact card */
+  margin-top: 10px;
+}
+
+.product-text p {
+  font-size: 14px; /* Reduced font size for description */
+  color: #919191;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.product-text h3 {
+  margin: 5px 0;
+  font-size: 16px; /* Reduced font size for price */
+}
+
+.product-star {
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.product-text .btn {
+  text-decoration: none;
+  padding: 8px 16px;
+  font-size: 14px; /* Reduced button font size */
+  background: #e86052;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.product-text .btn:hover {
+  background-color: #ff6e61;
+}
+
+.card-extra-links {
+  color: white;
+  display: inline-block;
+  position: absolute;
+  list-style: none;
+  top: 10px;
+  right: -40px;
+  transition: transform 0.4s ease;
+  z-index: 100;
+}
+
+.product-card:hover .card-extra-links {
+  transform: translateX(-70px);
+}
+
+.card-extra-links i {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  background: white;
+  transition: background-color 0.3s ease;
+}
+
+.card-extra-links i:hover {
+  background-color: #e86052;
+  color: white;
+}
+
+.product-wrapper-container {
+  max-height: 700px;
+  overflow-y: auto;
+  padding: 0 10px;
+}
+
+/* Scrollbar Track */
+.product-wrapper-container::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Scrollbar Background */
+.product-wrapper-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light background for contrast */
+  border-radius: 5px;
+}
+
+/* Scrollbar Thumb */
+.product-wrapper-container::-webkit-scrollbar-thumb {
+  background-color: #e96d5f; /* Pink scrollbar thumb */
+  border-radius: 5px; /* Rounded edges for a sleek look */
+  border: 2px solid #f1f1f1; /* Padding around thumb for better contrast */
+}
+
+/* Scrollbar Thumb Hover Effect */
+.product-wrapper-container::-webkit-scrollbar-thumb:hover {
+  background-color: #d85b52; /* Darker shade on hover */
+}

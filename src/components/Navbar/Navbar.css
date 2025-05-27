@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Inter&family=Josefin+Sans&family=Poppins&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #fff;
+  --text-color: #333;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: var(--background-color);
+  box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.473);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-content {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 160px;
+  height: 50px;
+}
+
+.pgs-links {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  gap: 30px;
+}
+
+.pgs-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: 0.25s ease;
+}
+
+.pgs-links a:hover {
+  color: #ff6e61;
+}
+
+.extra-features {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.extra-features i {
+  font-size: 22px;
+  color: var(--text-color);
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.extra-features i:hover {
+  color: #ff6e61;
+}
+
+.ex-heart,
+.ex-bag {
+  position: relative;
+}
+
+.ex-heart p,
+.ex-bag p {
+  position: absolute;
+  top: -5px;
+  right: -12px;
+  background: #e86052;
+  height: 18px;
+  width: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+}
+
+.theme_switch img {
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+    background-color: hsl(217, 28%, 9%);
+    width: 100vw;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-family: "Roboto";
+  }
+  
+  .foot-span {
+    color: #ff6e61;
+  }
+  
